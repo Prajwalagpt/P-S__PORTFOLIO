@@ -65,6 +65,9 @@ if (canvas) {
 
 // DEV CONSOLE
 console.log("%c📊 Probability & Statistics Portfolio", "color:#60a5fa;font-size:18px;");
+
+
+
 // Main JavaScript for Portfolio Website
 
 // Smooth scrolling for navigation links

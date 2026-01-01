@@ -1,1 +1,41 @@
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
 
+/* Fade animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-out;
+}
+
+/* Canvas glow */
+canvas {
+  filter: drop-shadow(0 0 25px rgba(96,165,250,0.9));
+}
+
+/* Glass effect */
+.glass {
+  background: rgba(30,41,59,0.55);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(148,163,184,0.1);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#3b82f6, #8b5cf6);
+  border-radius: 6px;
+}

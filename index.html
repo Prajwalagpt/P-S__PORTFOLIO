@@ -4,10 +4,35 @@
 <html lang="en">
 <head>
 
-    
-<div class="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+     <!-- Navigation -->
+    <nav class="fixed w-full bg-slate-900/80 backdrop-blur-md z-50 border-b border-slate-700/50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
                     P&S
                 </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="nav-link text-gray-300 hover:text-blue-400 transition-colors duration-300">Home</a>
+                    <a href="#about" class="nav-link text-gray-300 hover:text-blue-400 transition-colors duration-300">About</a>
+                    <a href="#projects" class="nav-link text-gray-300 hover:text-blue-400 transition-colors duration-300">Projects</a>
+                    <a href="#skills" class="nav-link text-gray-300 hover:text-blue-400 transition-colors duration-300">Skills</a>
+                    <a href="#contact" class="nav-link text-gray-300 hover:text-blue-400 transition-colors duration-300">Contact</a>
+                </div>
+                <button id="mobile-menu-btn" class="md:hidden text-gray-300 hover:text-blue-400">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4 space-y-3">
+                <a href="#home" class="block text-gray-300 hover:text-blue-400 transition-colors duration-300">Home</a>
+                <a href="#about" class="block text-gray-300 hover:text-blue-400 transition-colors duration-300">About</a>
+                <a href="#projects" class="block text-gray-300 hover:text-blue-400 transition-colors duration-300">Projects</a>
+                <a href="#skills" class="block text-gray-300 hover:text-blue-400 transition-colors duration-300">Skills</a>
+                <a href="#contact" class="block text-gray-300 hover:text-blue-400 transition-colors duration-300">Contact</a>
+            </div>
+        </div>
+    </nav>
+
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -93,35 +118,7 @@
 </body>
 </html>
 
-    <!-- Navigation -->
-    <nav class="fixed w-full bg-slate-900/80 backdrop-blur-md z-50 border-b border-slate-700/50">
-        <div class="container mx-auto px-6 py-4">
-            <div class="flex justify-between items-center">
-                <div class="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-                    P&S
-                </div>
-                <div class="hidden md:flex space-x-8">
-                    <a href="#home" class="nav-link text-gray-300 hover:text-blue-400 transition-colors duration-300">Home</a>
-                    <a href="#about" class="nav-link text-gray-300 hover:text-blue-400 transition-colors duration-300">About</a>
-                    <a href="#projects" class="nav-link text-gray-300 hover:text-blue-400 transition-colors duration-300">Projects</a>
-                    <a href="#skills" class="nav-link text-gray-300 hover:text-blue-400 transition-colors duration-300">Skills</a>
-                    <a href="#contact" class="nav-link text-gray-300 hover:text-blue-400 transition-colors duration-300">Contact</a>
-                </div>
-                <button id="mobile-menu-btn" class="md:hidden text-gray-300 hover:text-blue-400">
-                    <i class="fas fa-bars text-2xl"></i>
-                </button>
-            </div>
-            <!-- Mobile Menu -->
-            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4 space-y-3">
-                <a href="#home" class="block text-gray-300 hover:text-blue-400 transition-colors duration-300">Home</a>
-                <a href="#about" class="block text-gray-300 hover:text-blue-400 transition-colors duration-300">About</a>
-                <a href="#projects" class="block text-gray-300 hover:text-blue-400 transition-colors duration-300">Projects</a>
-                <a href="#skills" class="block text-gray-300 hover:text-blue-400 transition-colors duration-300">Skills</a>
-                <a href="#contact" class="block text-gray-300 hover:text-blue-400 transition-colors duration-300">Contact</a>
-            </div>
-        </div>
-    </nav>
-
+   
     
     <!-- About Section -->
     <section id="about" class="py-20 px-6">
